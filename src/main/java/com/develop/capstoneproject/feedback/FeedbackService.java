@@ -26,8 +26,10 @@ public class FeedbackService {
                 .message(dto.getMessage())
                 .build();
 
-         return feedbackRepository.save(feedback);
+        return feedbackRepository.save(feedback);
     }
+}
+/*
 
     @Scheduled(fixedRate = 6000)
     @Transactional
@@ -40,3 +42,4 @@ public class FeedbackService {
 
 }
 
+*/
